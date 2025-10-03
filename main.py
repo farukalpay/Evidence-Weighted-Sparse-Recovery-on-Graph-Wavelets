@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Manuscript-faithful demo:
 - Graph-wavelet (heat kernel) features on a word co-occurrence graph
 - Entropy best-basis selection over multiple scales
 - Importance weighting via uLSIF (non-trivial DR estimator)
 - Evidence weighting (Appendix A style)
 - Weighted L1 recovery (compressed sensing spirit)
 - BEFORE/AFTER text selections + DP keyword selection (treewidth-1 chain)
-NO attention mechanisms used.
 
 Dataset: UCI SMS Spam (verified entrypoint & mirrors in code + links above)
 """
